@@ -17,7 +17,7 @@ import unicodedata
 
 #prompts user to enter an amount in cents assigned varible - amount1 - input() defaults to a str so float() function converts to float
 
-print('This program will add two amounts of money togther in cents and display in Euro \n')
+print('\nThis program will add two amounts of money togther in cents and display in Euro \n')
 
 amount1 = float(input("Please enter an amount of money in cent:"))
 
@@ -38,7 +38,7 @@ sum_round = round(sum,3)
 # THis worked nicely - so even if you say.. add 120 and 150 it will display 2.70 instead of 2.7 
 
 
-print('The sum of these two amounts is {}{:.2f} '.format(unicodedata.lookup("EURO SIGN"), sum_round))
+print('\nThe sum of these two amounts is {}{:.2f} '.format(unicodedata.lookup("EURO SIGN"), sum_round))
 
 
 

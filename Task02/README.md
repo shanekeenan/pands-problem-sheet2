@@ -12,6 +12,19 @@ The program should:
 
 
 
+<h2> Key learnings and structure </h2>
+
+
+prompting for a user input - and converting that string to a float 
+
+amount1 = float(input("Please enter an amount of money in cent:"))
+
+
+
+
+
+
+
 
 
 
