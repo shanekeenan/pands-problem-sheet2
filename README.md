@@ -1,6 +1,6 @@
 # pands-problem-sheet2
 
-pands-problem-sheet2
+<h1>pands-problem-sheet2</h1>
 
 
 <h1>Task02 from week 2 </h1>
@@ -42,6 +42,48 @@ Modify the program to deal with account numbers of any length (yes that is a vag
 prompting for a user input - and converting that string to a float 
 
 amount1 = float(input("Please enter an amount of money in cent:"))
+
+<h1>Task04 from week 4 </h1>
+<h2> Task description </h2> 
+
+Description:
+Write a python program called collatz.py
+   - that asks the user to input any positive integer and outputs the successive values of the following calculation.
+   - At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
+   - Have the program end if the current value is one.
+   -  Push the program in your pands-problem-sheet GitHub repository (like you do for all the weekly tasks).
+ Example of it running:
+
+ Please enter a positive integer: 10
+ 10 5 16 8 4 2 1
+
+
+<h2> Key learnings and structure </h2>
+
+Great task to get to grips with both while loops and if/else statements 
+
+Solution:
+
+#prompts user to enter any positive integer 
+number_in = int(input("Please enter a positive integer:"))
+
+# while the integer is not equal to 1 
+# if() - the remainder of dividing by 2 is equal to 0 - it is an even number  - you divide by two 
+# esle  - multipy by 3 and add 1 
+# use print() of each iteration at the indentation level of the while loop. 
+# noticed that using the % operator changes a int into a float. - need to change to int to display neatly
+
+print('{} {}'.format(type(number_in),(number_in)))
+
+while (number_in != 1): 
+    if (number_in % 2) == 0:
+        number_in = (number_in/2)
+    else:
+        number_in = (number_in*3)+1
+    print('{}'.format(int(number_in)))
+    #print('{} {}'.format(type(number_in),(number_in)))
+
+
 
 
 
