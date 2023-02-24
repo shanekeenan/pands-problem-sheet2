@@ -87,3 +87,41 @@ while (number_in != 1):
 
 
 
+h1>Task05 from week 5 </h1>
+ <h2> Task description </h2> 
+ 
+Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
+(You will need to search the web to find how you work out what day it is)
+
+An example of running this program on a Thursday is given below.
+
+$ python weekday.py
+Yes, unfortunately today is a weekday.
+
+An example of running it on a Saturday is as follows:
+
+$ python weekday.py
+It is the weekend, yay!
+
+
+<h2> Key learnings and structure </h2>
+
+
+import datetime
+weekday_no = datetime.datetime.today().weekday()
+
+this returns an integer 0-6 representing the consecutive days of the week, starting from Monday.
+
+
+User an if/else statement to output text depending on whether it is a weekday or the weekend 
+
+if weekday_no < 5:
+    print ("Yes, unfortunately today is a weekday.")
+else:  # 5 Sat, 6 Sun
+    print ("It is the weekend, yay!")
+
+
+An addition to the program to output the day as well - to make a list of the weekdays and use the weekday_no integer to select the correct index in the list 
+
+days = ['Monday','Tuesday','Wednesday', 'Thursday','Friday','Saturday', 'Sunday']
+print(f"It's " +days[weekday_no] )
