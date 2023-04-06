@@ -23,6 +23,8 @@ It is the weekend, yay!
 
 # Author: Shane Keenan
 # resource used: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
+# status: complete
+
 
 
 import datetime
