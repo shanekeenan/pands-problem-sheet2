@@ -1,17 +1,19 @@
 # bank.py 
-# task02  
-# Description
+# Task02  week2
+
+''' Description
 # The program should:
 #   - Prompt the user and read in two money amounts (in cent)
 #   - Add the two amounts
 #   - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 # 
-# i searcherd stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 
+'''
 
 # author: Shane Keenan 
-
+# resource used: stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 # Status: complete
+
 
 import unicodedata
 

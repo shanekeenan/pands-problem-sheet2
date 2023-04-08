@@ -1,16 +1,17 @@
 # accounts.py 
-# task03 week3  
-# Description
+# Task03 week3  
+
+'''
+ Description
 # Write a python program called accounts.py
 #   - that reads in a 10 character account number
 #   - outputs the account number with only the last 4 digits showing
 #   - (and the first 6 digits replaced with Xs).
-# 
+'''
+
+# Author: Shane Keenan 
 # resources used:
-#splcing -  https://www.pythonforbeginners.com/python-strings/string-splicing-in-python
-
-# author: Shane Keenan 
-
+# splcing -  https://www.pythonforbeginners.com/python-strings/string-splicing-in-python
 # Status: complete 
 
 

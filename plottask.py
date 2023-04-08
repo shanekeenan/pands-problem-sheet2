@@ -11,6 +11,11 @@ on the one set of axes.
 Some marks will be given for making the plot look nice (legend etc)
 
 '''
+# reources used: 
+# https://www.geeksforgeeks.org/matplotlib-pyplot-hist-in-python/
+# https://stackoverflow.com/questions/6916978/how-do-i-tell-matplotlib-to-create-a-second-new-plot-then-later-plot-on-the-o
+# https://www.geeksforgeeks.org/matplotlib-pyplot-twinx-in-python/
+# https://stackoverflow.com/questions/21226868/superscript-in-python-plots
 
 # Author: Shane Keenan 
 # status: complete

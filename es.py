@@ -1,7 +1,8 @@
+# es.py 
+# Task 7 Week  7 
+
+
 '''
-
-Weekly task 7
-
 Andrew's description: 
 
 Write a program that reads in a text file and outputs the number of e's it contains. 
@@ -10,10 +11,7 @@ Think about what is being asked here, document any assumptions you are making.
 The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
 
 '''
-#
 # Author: Shane Keenan
-# Status: ongoing 
-
 
 # import the text file from an argument in the command line... 
 # resource used : https://stackoverflow.com/questions/33766029/python-command-line-arguments-file-name
@@ -21,6 +19,8 @@ The program should take the filename from an argument on the command line. I hav
 #
 # moby dick text file 
 # https://gist.github.com/StevenClontz/4445774 
+
+# Status: complete
 
 
 
@@ -68,11 +68,4 @@ print(f"\nAccording to the text file version of Moby Dick from https://gist.gith
 print(f"\n{count_e} lower case e's and {count_E} upper case E's")
 print(f"\n")
 
-
-
-
-
-
-
-#
 

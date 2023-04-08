@@ -1,6 +1,15 @@
-# pands-problem-sheet2
+# pands-problem-sheet - README file for Weekly tasks in the Programming and scripting module of HDip in Data Analytics 
 
-<h1>pands-problem-sheet2</h1>
+<h1>Task01 from Week 1</h1>
+ <h2> Task description </h2> 
+
+
+
+
+
+
+
+status: <i>complete<i>
 
 
 <h1>Task02 from week 2 </h1>
