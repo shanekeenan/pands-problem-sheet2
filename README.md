@@ -1,15 +1,25 @@
-# pands-problem-sheet - README file for Weekly tasks in the Programming and scripting module of HDip in Data Analytics 
+<title> pands-problem-sheet </title>   
+
+<h1>README file for weekly tasks in the Programming and scripting module semester 1 HDip in Computing in Data Analytics</h1>
+
 
 <h1>Task01 from Week 1</h1>
  <h2> Task description </h2> 
 
 
+- Please simply introduce yourself in the Discussion forum, 
+- Install the required software on your machine,
+- Pull the sample code in my repository to your machine,
+- Create a GitHub account and repository for yourself (mywork), and the problem sheet (pands-problem-sheet)
+- Commit and push a file to the problem sheet called helloworld.py. This file should contain a python program that displays Hello World! when it is run.
 
 
+<h2> Key learnings and structure </h2>
+
+use of the print() function to output/display text to user 
 
 
-
-status: <i>complete<i>
+status: <i>complete</i>
 
 
 <h1>Task02 from week 2 </h1>
@@ -31,6 +41,9 @@ prompting for a user input - and converting that string to a float
 amount1 = float(input("Please enter an amount of money in cent:"))
 
 
+
+status: <i>complete</i>
+
 <h1>Task03 from week 3 </h1>
  <h2> Task description </h2> 
  
@@ -51,6 +64,9 @@ Modify the program to deal with account numbers of any length (yes that is a vag
 prompting for a user input - and converting that string to a float 
 
 amount1 = float(input("Please enter an amount of money in cent:"))
+
+
+status: <i>complete</i>
 
 <h1>Task04 from week 4 </h1>
 <h2> Task description </h2> 
@@ -94,6 +110,7 @@ while (number_in != 1):
 
 
 
+status: <i>complete</i>
 
 
 h1>Task05 from week 5 </h1>
@@ -134,3 +151,55 @@ An addition to the program to output the day as well - to make a list of the wee
 
 days = ['Monday','Tuesday','Wednesday', 'Thursday','Friday','Saturday', 'Sunday']
 print(f"It's " +days[weekday_no] )
+
+
+
+
+status: <i>complete</i>
+
+
+
+<h1>Task06 from week 6 </h1>
+<h2> Task description </h2> 
+
+Description:
+
+
+<h2> Key learnings and structure </h2>
+
+
+
+
+
+status: <i>complete</i>
+
+
+<h1>Task07 from week 7 </h1>
+<h2> Task description </h2> 
+
+Description:
+
+
+<h2> Key learnings and structure </h2>
+
+
+
+
+
+status: <i>complete</i>
+
+
+
+<h1>Task08 from week 8 </h1>
+<h2> Task description </h2> 
+
+Description:
+
+
+<h2> Key learnings and structure </h2>
+
+
+
+
+
+status: <i>complete</i>
