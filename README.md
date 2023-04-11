@@ -32,15 +32,19 @@ The program should:
    - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 
 
+<h2> Program:  </h2>
+
+bank.py
 
 <h2> Key learnings and structure </h2>
-
 
 prompting for a user input - and converting that string to a float 
 
 amount1 = float(input("Please enter an amount of money in cent:"))
 
+<h2> Resources/ references </h2>
 
+stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 
 status: <i>complete</i>
 
