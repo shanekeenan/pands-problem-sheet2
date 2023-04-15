@@ -5,14 +5,14 @@ Author: Shane Keenan
 
 This README file contains the description of my programs/solutions for the weekly tasks 1-8 in this module 
 Included are descriptions of the following programs 
-    - helloworld.py (task01)
-    - bank.py (task02)
-    - account.py and account_extra.py (task03)
-    - collatz.py (task04)
-    - weekday.py (task05)
-    - sqaureroot.py (task06)
-    - es.py (task07)
-    - plottask.py (task08)
+    - helloworld.py (task01) <br>
+    - bank.py (task02) <br>
+    - account.py and account_extra.py (task03)<br>
+    - collatz.py (task04)<br>
+    - weekday.py (task05)<br>
+    - sqaureroot.py (task06)<br>
+    - es.py (task07)<br>
+    - plottask.py (task08)<br>
 
 All of the programs listed above were developed with and for use with Visual Studio Code. 
 
