@@ -34,7 +34,7 @@ helloworld.py
 
 use of the print() function to output/display text to user 
 
-<p style="color:green;">status: <i>complete</i></p>
+<p style="color:red;"> status: <i>complete</i></p>
 
 
 
