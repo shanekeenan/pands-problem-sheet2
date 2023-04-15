@@ -1,11 +1,24 @@
 # pands-problem-sheet   
 
 <h1>README file for weekly tasks in the Programming and scripting module semester 1 HDip in Computing in Data Analytics</h1>
+Author: Shane Keenan
+
+This README file contains the description of my programs/solutions for the weekly tasks 1-8 in this module 
+Included are descriptions of the following programs 
+    - helloworld.py (task01)
+    - bank.py (task02)
+    - account.py and account_extra.py (task03)
+    - collatz.py (task04)
+    - weekday.py (task05)
+    - sqaureroot.py (task06)
+    - es.py (task07)
+    - plottask.py (task08)
+
+All of the programs listed above were developed with and for use with Visual Studio Code. 
 
 
 <h1>Task01 from Week 1</h1>
  <h2> Task description </h2> 
-
 
 - Please simply introduce yourself in the Discussion forum, 
 - Install the required software on your machine,
