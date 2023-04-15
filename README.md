@@ -26,7 +26,12 @@ All of the programs listed above were developed with and for use with Visual Stu
 helloworld.py
 <h3> Key learnings and structure </h3>
 use of the print() function to output/display text to user 
-status: <b><i>complete</i></b>
+<h3>status: </h3>
+<i>complete</i>
+
+
+
+
 
 <h2>Task02 from week 2 </h2>
  <h3> Task description </h3> 
@@ -38,12 +43,17 @@ status: <b><i>complete</i></b>
 <h3> Program:  </h3>
 <i>bank.py</i>
 <h3> Key learnings and structure </h3>
-prompting for a user input - and converting that string to a float 
-amount1 = float(input("Please enter an amount of money in cent:"))
+prompting for a user input - amount1 = float(input("Please enter an amount of money in cent:"))<br>
+dividing two integers (/100) will convert to a float anyway so easiest to convert that string directly to a float<br>
+used formatting to display 3 significant figures<br>
+print('\nThe sum of these two amounts is {}{:.2f} '.format(unicodedata.lookup("EURO SIGN"), sum_round))
 <h3> Resources/ references </h3>
 stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 <h3>status: </h3>
 <i>complete</i>
+
+
+
 
 <h2>Task03 from week 3 </h2>
  <h3> Task description </h3>  
