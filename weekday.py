@@ -26,14 +26,11 @@ print(type(weekday_no))
 print(weekday_no)
 '''
 # test the if/esle statement 
-# weekday_no = 6
-if weekday_no <= 5:
+# weekday_no = 5
+if weekday_no < 5:  # if/else statement checks if the variable is less than 5 -  0-6 is Mon-Sun.
     print ("Yes, unfortunately today is a weekday.")
 else:  # 5 Sat, 6 Sun
     print ("It is the weekend, yay!")
 # addition to the program is to make a list of the weekdays and use the weekday_no integer to select the correct index in the list 
 days = ['Monday','Tuesday','Wednesday', 'Thursday','Friday','Saturday', 'Sunday']
 print(f"It's " +days[weekday_no] )
-
-
-
