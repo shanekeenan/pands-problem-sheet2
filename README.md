@@ -55,9 +55,10 @@ stackoverflow on how to get the euro symbol: code from here https://stackoverflo
 
 <h2>Task03 from week 3 </h2>
  <h3> Task description: </h3>  
-Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters <br>(with the other other characters replaced with Xs).<br>
-Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last<br> 4 digits showing (and the first 6 digits replaced with Xs).<br>
-$ python accounts.py<br>
+Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).<br>
+Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).<br>
+
+python accounts.py  <br>
 Please enter an 10 digit account number: 1234567890<br>
 XXXXXX7890<br>
 Extra:<br>
