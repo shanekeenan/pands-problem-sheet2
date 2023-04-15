@@ -26,13 +26,16 @@ All of the programs listed above were developed with and for use with Visual Stu
 - Create a GitHub account and repository for yourself (mywork), and the problem sheet (pands-problem-sheet)
 - Commit and push a file to the problem sheet called helloworld.py. This file should contain a python program that displays Hello World! when it is run.
 
+<h2> Program:  </h2>
+
+helloworld.py
 
 <h2> Key learnings and structure </h2>
 
 use of the print() function to output/display text to user 
 
+<p style="color:green;">status: <i>complete</i></p>
 
-status: <i>complete</i>
 
 
 <h1>Task02 from week 2 </h1>
