@@ -1,9 +1,9 @@
 # pands-problem-sheet   
 
-<h1>README file for weekly tasks in the Programming and scripting module semester 1 HDip in Computing in Data Analytics</h1>
+<h2>README file for weekly tasks in the Programming and scripting module semester 1 HDip in Computing in Data Analytics</h2>
 Author: Shane Keenan
 
-This README file contains the description of my programs/solutions for the weekly tasks 1-8 in this module 
+This README file contains the description of my programs/solutions for the weekly tasks 1-8 in this module.<br>
 Included are descriptions of the following programs:<br>
     - <i>helloworld.py (task01)</i> <br>
     - <i>bank.py (task02)</i> <br>
@@ -15,78 +15,53 @@ Included are descriptions of the following programs:<br>
     - <i>plottask.py (task08)</i><br>
 
 All of the programs listed above were developed with and for use with Visual Studio Code. 
-
-
-<h1>Task01 from Week 1</h1>
- <h2> Task description </h2> 
-
+<h2>Task01 from Week 1</h2>
+ <h3> Task description </h3> 
 - Please simply introduce yourself in the Discussion forum, 
 - Install the required software on your machine,
 - Pull the sample code in my repository to your machine,
 - Create a GitHub account and repository for yourself (mywork), and the problem sheet (pands-problem-sheet)
 - Commit and push a file to the problem sheet called helloworld.py. This file should contain a python program that displays Hello World! when it is run.
-
-<h2> Program:  </h2>
-
+<h3> Program:  </h3>
 helloworld.py
-
-<h2> Key learnings and structure </h2>
-
+<h3> Key learnings and structure </h3>
 use of the print() function to output/display text to user 
+status: <b><i>complete</i></b>
 
-<p style="color:red;"> status: <i>complete</i></p>
-
-
-
-<h1>Task02 from week 2 </h1>
- <h2> Task description </h2> 
- 
-The program should:
+<h2>Task02 from week 2 </h2>
+ <h3> Task description </h3> 
+ The program should:
  The program should:
   - Prompt the user and read in two money amounts (in cent)
    - Add the two amounts
    - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
-
-
-<h2> Program:  </h2>
-
-bank.py
-
-<h2> Key learnings and structure </h2>
-
+<h3> Program:  </h3>
+<i>bank.py</i>
+<h3> Key learnings and structure </h3>
 prompting for a user input - and converting that string to a float 
-
 amount1 = float(input("Please enter an amount of money in cent:"))
-
-<h2> Resources/ references </h2>
-
+<h3> Resources/ references </h3>
 stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
+<h3>status: </h3>
+<i>complete</i>
 
-status: <i>complete</i>
-
-<h1>Task03 from week 3 </h1>
- <h2> Task description </h2> 
- 
+<h2>Task03 from week 3 </h2>
+ <h3> Task description </h3>  
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
-
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
-
 $ python accounts.py
 Please enter an 10 digit account number: 1234567890
 XXXXXX7890
 Extra:
 Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
-
-
+<h3> Program:  </h3>
+<i>account.py and account_extra.py</i>
 <h2> Key learnings and structure </h2>
-
-
 prompting for a user input - and converting that string to a float 
-
 amount1 = float(input("Please enter an amount of money in cent:"))
 
-
-status: <i>complete</i>
+<h3>status: </h3>
+<i>complete</i>
 
 <h1>Task04 from week 4 </h1>
 <h2> Task description </h2> 
