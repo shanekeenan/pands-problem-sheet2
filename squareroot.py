@@ -24,17 +24,15 @@ floatnum = float(input('Please enter a floating point number:'))
 squarefloat = floatnum ** .5 
 
 tolerance = float(input('Please enter the tolerance required for the estimation: '))
+# the fucntion sqrt() takes in two variables 
 def sqrt(N,tolerance):
    estimate = 1.0
    while True:
         estimate = 0.5 * (estimate + (N / estimate)) 
         difference = abs(N - estimate ** 2)
-        
         if difference <= tolerance:
             break
-   
    return estimate
-
 print('\nYou entered this number: {} '.format(floatnum))
 print('\nThe squareroot of {} is approximately equal to {:.5f} using x^0.5 method'.format(floatnum,squarefloat))
 print('\nThe squareroot of {} is approximately equal to {:.5f} using newtons method with a tolerance of {}'.format(floatnum,sqrt(floatnum,tolerance),tolerance))

@@ -14,18 +14,12 @@ The program should take the filename from an argument on the command line. I hav
 # https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/ 
 # moby dick text file 
 # https://gist.github.com/StevenClontz/4445774 
-# Status: complete
+
 
 # import the sys module 
 import sys
 # the sys.argv[1] gets the first argument after the script for a filename
 filename = sys.argv[1]
-'''
-# len() can be used here to error check the length is over 2 characters long. 
-if len(sys.argv) != 2:
-    print("Usage: python es.py <filename>")
-    sys.exit(1)
-'''
 #open the text file and read the contents 
 with open(filename, 'r') as file:
     text = file.read()
@@ -45,7 +39,5 @@ count_E = 0
 for char in text:
     if char == "E" :
         count_E += 1
-
-print(f"\nAccording to the text file version of Moby Dick from https://gist.github.com/StevenClontz/4445774 \n \nThere is a total of {count} e's in the novel Moby Dick...")
-print(f"\n{count_e} lower case e's and {count_E} upper case E's")
-print(f"\n")
+print(f"\nAccording to the text file version of Moby Dick from https://gist.github.com/StevenClontz/4445774 \nThere is a total of {count} e's in the novel Moby Dick...",end = "")
+print(f"{count_e} lower case e's and {count_E} upper case E's")

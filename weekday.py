@@ -1,7 +1,5 @@
 # weekday.py 
 # task05 week5  
-
-
 '''
 Description from Andrew 
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
@@ -12,7 +10,6 @@ Yes, unfortunately today is a weekday.
 An example of running it on a Saturday is as follows:
 $ python weekday.py
 It is the weekend, yay!
-
 '''
 # Author: Shane Keenan
 # resource used: https://stackoverflow.com/questions/29384696/how-to-find-current-day-is-weekday-or-weekends-in-python
@@ -20,11 +17,6 @@ It is the weekend, yay!
 
 import datetime
 weekday_no = datetime.datetime.today().weekday()
-# sanity check 
-'''
-print(type(weekday_no)) 
-print(weekday_no)
-'''
 # test the if/esle statement 
 # weekday_no = 5
 if weekday_no < 5:  # if/else statement checks if the variable is less than 5 -  0-6 is Mon-Sun.
