@@ -31,8 +31,6 @@ use of the print() function to output/display text to user
 
 
 
-
-
 <h2>Task02 from week 2 </h2>
  <h3> Task description: </h3> 
     - Prompt the user and read in two money amounts (in cent)<br>
@@ -49,7 +47,6 @@ print('\nThe sum of these two amounts is {}{:.2f} '.format(unicodedata.lookup("E
 stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 <h3>status: </h3>
 <b><i>complete</i></b>
-
 
 
 
@@ -91,10 +88,6 @@ determine the length of a string  - https://www.w3schools.com/python/gloss_pytho
 
 
 
-
-
-
-
 <h2>Task04 from week 4 </h2>
  <h3> Task description: </h3>  
 Write a python program <br>
@@ -122,12 +115,8 @@ print('{}'.format(int(number_in)),end= ' ')
 <h3> Resources/ references: </h3>
 
 
-
 <h3>status: </h3>
 <b><i>complete</i></b>
-
-
-
 
 
 
@@ -253,128 +242,3 @@ https://stackoverflow.com/questions/21226868/superscript-in-python-plots
 
 <h3>status: </h3>
 <b><i>complete</i></b>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1>Task04 from week 4 </h1>
-<h2> Task description </h2> 
-
-Description:
-
-
-
-<h2> Key learnings and structure </h2>
-
-Great task to get to grips with both while loops and if/else statements 
-
-
-
-
-
-
-status: <i>complete</i>
-
-
-
-
-h1>Task05 from week 5 </h1>
- <h2> Task description </h2> 
- 
-Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)
-(You will need to search the web to find how you work out what day it is)
-
-An example of running this program on a Thursday is given below.
-
-$ python weekday.py
-Yes, unfortunately today is a weekday.
-
-An example of running it on a Saturday is as follows:
-
-$ python weekday.py
-It is the weekend, yay!
-
-
-<h2> Key learnings and structure </h2>
-
-
-import datetime
-weekday_no = datetime.datetime.today().weekday()
-
-this returns an integer 0-6 representing the consecutive days of the week, starting from Monday.
-
-
-User an if/else statement to output text depending on whether it is a weekday or the weekend 
-
-if weekday_no < 5:
-    print ("Yes, unfortunately today is a weekday.")
-else:  # 5 Sat, 6 Sun
-    print ("It is the weekend, yay!")
-
-
-An addition to the program to output the day as well - to make a list of the weekdays and use the weekday_no integer to select the correct index in the list 
-
-days = ['Monday','Tuesday','Wednesday', 'Thursday','Friday','Saturday', 'Sunday']
-print(f"It's " +days[weekday_no] )
-
-
-
-
-status: <i>complete</i>
-
-
-
-<h1>Task06 from week 6 </h1>
-<h2> Task description </h2> 
-
-Description:
-
-
-<h2> Key learnings and structure </h2>
-
-
-
-
-
-status: <i>complete</i>
-
-
-<h1>Task07 from week 7 </h1>
-<h2> Task description </h2> 
-
-Description:
-
-
-<h2> Key learnings and structure </h2>
-
-
-
-
-
-status: <i>complete</i>
-
-
-
-<h1>Task08 from week 8 </h1>
-<h2> Task description </h2> 
-
-Description:
-
-
-<h2> Key learnings and structure </h2>
-
-
-
-
-
-status: <i>complete</i>
