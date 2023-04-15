@@ -35,11 +35,9 @@ use of the print() function to output/display text to user
 
 <h2>Task02 from week 2 </h2>
  <h3> Task description: </h3> 
- The program should:
- The program should:
-  - Prompt the user and read in two money amounts (in cent)
-   - Add the two amounts
-   - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
+    - Prompt the user and read in two money amounts (in cent)<br>
+   - Add the two amounts<br>
+   - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount<br> 
 <h3> Program:  </h3>
 <i>bank.py</i>
 <h3> Key learnings and structure:</h3>
@@ -57,12 +55,12 @@ stackoverflow on how to get the euro symbol: code from here https://stackoverflo
 
 <h2>Task03 from week 3 </h2>
  <h3> Task description: </h3>  
-Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
-Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
-$ python accounts.py
-Please enter an 10 digit account number: 1234567890
-XXXXXX7890
-Extra:
+Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters <br>(with the other other characters replaced with Xs).<br>
+Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last<br> 4 digits showing (and the first 6 digits replaced with Xs).<br>
+$ python accounts.py<br>
+Please enter an 10 digit account number: 1234567890<br>
+XXXXXX7890<br>
+Extra:<br>
 Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
 <h3> Program:  </h3>
@@ -91,15 +89,15 @@ the len() function is used to determine the length of the account number and the
 
 <h2>Task04 from week 4 </h2>
  <h3> Task description: </h3>  
-Write a python program 
-   - that asks the user to input any positive integer and outputs the successive values of the following calculation.
-   - At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
-   - Have the program end if the current value is one.
-   -  Push the program in your pands-problem-sheet GitHub repository (like you do for all the weekly tasks).
- Example of it running:
+Write a python program <br>
+   - that asks the user to input any positive integer and outputs the successive values of the following calculation.<br>
+   - At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.<br>
+   - Have the program end if the current value is one.<br>
+   -  Push the program in your pands-problem-sheet GitHub repository (like you do for all the weekly tasks).<br>
+ Example of it running:<br>
 
- Please enter a positive integer: 10
- 10 5 16 8 4 2 1
+ Please enter a positive integer: 10<br>
+ 10 5 16 8 4 2 1<br>
 
 <h3> Program:  </h3>
 <i>collatz.py</i>
