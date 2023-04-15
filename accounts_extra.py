@@ -22,7 +22,7 @@ account1 = input("Please enter account number of any length:")
 #  check what length the account number is 
 length_account1 = len(account1)
 # just to check what type of variable the function len() gives
-length_type = type(length_account1)
+#length_type = type(length_account1)
 #print('{}'.format(type(length_account1)))
 #  splice the account number to select the last 4 digits only - modified   
 last4_account1 = account1[-4:]

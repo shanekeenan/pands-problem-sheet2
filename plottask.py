@@ -18,7 +18,6 @@ Some marks will be given for making the plot look nice (legend etc)
 
 import numpy as np 
 import matplotlib.pyplot as plt 
-import seaborn as sns
 # create random data for the normal distribution to be plotted in histogram
 normData = np.random.normal(loc = 5, scale = 2, size = 1000)
 # create h(x) = x^3 function data - np.array(range(0,10)) only outputs 10 points - 
@@ -30,7 +29,7 @@ plt.figure(0)
 plt.hist(normData, bins=60, density=True)
 plt.show()
 '''
-# instead plot using object-orientated matplotlib 
+# plot using object-orientated matplotlib 
 # - to plot two axes together - https://stackoverflow.com/questions/6916978/how-do-i-tell-matplotlib-to-create-a-second-new-plot-then-later-plot-on-the-o
 fig, ax1 = plt.subplots()
 ax1.hist(normData, bins=60, density=True, color='blue')
