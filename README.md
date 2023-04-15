@@ -5,7 +5,7 @@ Author: Shane Keenan
 
 This README file contains the description of my programs/solutions for the weekly tasks 1-8 in this module.<br>
 Included are descriptions of the following programs:<br>
-    <p>- <i>helloworld.py (task01)</i> <br></p>
+    <li>- <i>helloworld.py (task01)</i></li><br>
     - <i>bank.py (task02)</i> <br>
     - <i>account.py and account_extra.py</i> (task03)<br>
     - <i>collatz.py (task04)</i><br>
