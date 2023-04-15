@@ -13,7 +13,6 @@ Some marks will be given for making the plot look nice (legend etc)
 # https://stackoverflow.com/questions/6916978/how-do-i-tell-matplotlib-to-create-a-second-new-plot-then-later-plot-on-the-o
 # https://www.geeksforgeeks.org/matplotlib-pyplot-twinx-in-python/
 # https://stackoverflow.com/questions/21226868/superscript-in-python-plots
-
 # Author: Shane Keenan 
 # status: complete
 
@@ -46,4 +45,5 @@ ax2.plot(x, y, color = 'red', linewidth=2, label='$h(x)=x^3$')
 # how to superscritp the power - https://stackoverflow.com/questions/21226868/superscript-in-python-plots
 ax2.legend(loc='upper left')
 plt.title('Normal distribution (mean = 5, SD = 2) and plot function $h(x)=x^3$')
-plt.show()
+#plt.show()
+plt.savefig('hist_func_plot.png')
