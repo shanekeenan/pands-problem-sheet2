@@ -27,14 +27,14 @@ helloworld.py
 <h3> Key learnings and structure </h3>
 use of the print() function to output/display text to user 
 <h3>status: </h3>
-<i>complete</i>
+<b><i>complete</i></b>
 
 
 
 
 
 <h2>Task02 from week 2 </h2>
- <h3> Task description </h3> 
+ <h3> Task description: </h3> 
  The program should:
  The program should:
   - Prompt the user and read in two money amounts (in cent)
@@ -42,7 +42,7 @@ use of the print() function to output/display text to user
    - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 <h3> Program:  </h3>
 <i>bank.py</i>
-<h3> Key learnings and structure </h3>
+<h3> Key learnings and structure:</h3>
 prompting for a user input - amount1 = float(input("Please enter an amount of money in cent:"))<br>
 dividing two integers (/100) will convert to a float anyway so easiest to convert that string directly to a float<br>
 used formatting to display 3 significant figures<br>
@@ -50,13 +50,13 @@ print('\nThe sum of these two amounts is {}{:.2f} '.format(unicodedata.lookup("E
 <h3> Resources/ references </h3>
 stackoverflow on how to get the euro symbol: code from here https://stackoverflow.com/questions/39935857
 <h3>status: </h3>
-<i>complete</i>
+<b><i>complete</i></b>
 
 
 
 
 <h2>Task03 from week 3 </h2>
- <h3> Task description </h3>  
+ <h3> Task description: </h3>  
 Bank account numbers can stored as 10 character strings, for security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
 Write a python program called accounts.py that reads in a 10 character account number and outputs the account number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 $ python accounts.py
@@ -64,20 +64,34 @@ Please enter an 10 digit account number: 1234567890
 XXXXXX7890
 Extra:
 Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
+
 <h3> Program:  </h3>
 <i>account.py and account_extra.py</i>
-<h2> Key learnings and structure </h2>
-prompting for a user input - and converting that string to a float 
-amount1 = float(input("Please enter an amount of money in cent:"))
+<h3>Key learnings and structure: </h3>
+prompts the user for a 10 digit account number - user input - variable string<br>
+because it is 10 digits long the account number can be spliced using a simple<br>
+last4_account1 = account1[6:10]<br>
+and displayed showing the only the last 4 digits<br>
+print('\nxxxxxx{}'.format(last4_account1))
+
+account_extra.py <br>
+this one deals with the case of an account number of unknown length<br> 
+and uses splicing with a negative number to select the last 4 digits.<br> 
+the len() function is used to determine the length of the account number and the number of x's to include when displayed. 
 
 <h3>status: </h3>
-<i>complete</i>
+<b><i>complete</i></b>
 
-<h1>Task04 from week 4 </h1>
-<h2> Task description </h2> 
 
-Description:
-Write a python program called collatz.py
+
+
+
+
+
+
+<h2>Task04 from week 4 </h2>
+ <h3> Task description: </h3>  
+Write a python program 
    - that asks the user to input any positive integer and outputs the successive values of the following calculation.
    - At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
    - Have the program end if the current value is one.
@@ -87,35 +101,115 @@ Write a python program called collatz.py
  Please enter a positive integer: 10
  10 5 16 8 4 2 1
 
+<h3> Program:  </h3>
+<i>collatz.py</i>
+<h3>Key learnings and structure: </h3>
+
+while the integer is not equal to 1<br> 
+if() - the remainder of dividing by 2 is equal to 0 - it is an even number  - you divide by two <br>
+esle  - multipy by 3 and add 1<br> 
+use print() of each iteration at the indentation level of the while loop.<br> 
+note using the % operator changes a int into a float. - change to int inside print()<br>
+to avoid printing each number on a new line change the syntax of the print() fucntion to use a space instead.  <br>
+print('{}'.format(int(number_in)),end= ' ')
+
+<h3>status: </h3>
+<b><i>complete</i></b>
+
+
+
+
+
+
+
+
+<h2>Task05 from week 5 </h2>
+ <h3> Task description: </h3>  
+
+<h3> Program:  </h3>
+<i>weekday.py</i>
+<h3>Key learnings and structure: </h3>
+
+
+<h3>status: </h3>
+<b><i>complete</i></b>
+
+
+
+
+
+<h2>Task06 from week 6 </h2>
+ <h3> Task description: </h3>  
+
+<h3> Program:  </h3>
+<i>squareroot.py</i>
+<h3>Key learnings and structure: </h3>
+
+
+<h3>status: </h3>
+<b><i>complete</i></b>
+
+
+
+
+
+<h2>Task07 from week 7 </h2>
+ <h3> Task description: </h3>  
+
+<h3> Program:  </h3>
+<i>es.py</i>
+<h3>Key learnings and structure: </h3>
+
+
+<h3>status: </h3>
+<b><i>complete</i></b>
+
+
+
+
+<h2>Task08 from week 8 </h2>
+ <h3> Task description: </h3>  
+
+<h3> Program:  </h3>
+<i>plottask.py</i>
+<h3>Key learnings and structure: </h3>
+
+
+<h3>status: </h3>
+<b><i>complete</i></b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Task04 from week 4 </h1>
+<h2> Task description </h2> 
+
+Description:
+
+
 
 <h2> Key learnings and structure </h2>
 
 Great task to get to grips with both while loops and if/else statements 
 
-Solution:
 
-#prompts user to enter any positive integer 
-number_in = int(input("Please enter a positive integer:"))
 
-# while the integer is not equal to 1 
-# if() - the remainder of dividing by 2 is equal to 0 - it is an even number  - you divide by two 
-# esle  - multipy by 3 and add 1 
-# use print() of each iteration at the indentation level of the while loop. 
-# noticed that using the % operator changes a int into a float. - need to change to int to display neatly
-
-print('{} {}'.format(type(number_in),(number_in)))
-
-while (number_in != 1): 
-    if (number_in % 2) == 0:
-        number_in = (number_in/2)
-    else:
-        number_in = (number_in*3)+1
-    print('{}'.format(int(number_in)))
-    #print('{} {}'.format(type(number_in),(number_in)))
 
 
 
 status: <i>complete</i>
+
+
 
 
 h1>Task05 from week 5 </h1>
